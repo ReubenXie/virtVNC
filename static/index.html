@@ -55,7 +55,7 @@
           })
           .catch(err => console.log("Failed to get vmis: " + err));
        }
-       let namespace = WebUtil.getQueryVar('namespace', 'kubevirt-training');
+       let namespace = WebUtil.getQueryVar('namespace', 'default');
 
        loadVMI(namespace);
     </script>
